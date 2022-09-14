@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1660190329667
+Build-Jdk: 17.0.2
+Built-By: Ajithvenkadesh
+Bundle-Activator: com.connection.Activator
+Bundle-Description: connection OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: connection Bundle
+Bundle-SymbolicName: connection
+Bundle-Version: 7.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.connection;version="7.0.0.SNAPSHOT";uses:="org.osgi.
+ framework"
+Import-Package: org.apache.commons.dbcp2;version="[2.7,3)",org.osgi.fram
+ ework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-2.4.1.201501161923

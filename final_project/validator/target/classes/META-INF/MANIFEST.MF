@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1659468294036
+Build-Jdk: 17.0.2
+Built-By: Ajithvenkadesh
+Bundle-Activator: com.taskManagement.validation.Activator
+Bundle-Description: validator OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: validator Bundle
+Bundle-SymbolicName: validator
+Bundle-Version: 0.0.28.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.taskManagement.validation;version="0.0.28.SNAPSHOT";
+ uses:="org.osgi.framework"
+Import-Package: org.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-2.4.1.201501161923

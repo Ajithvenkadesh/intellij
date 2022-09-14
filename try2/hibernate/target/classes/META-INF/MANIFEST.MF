@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1659765117134
+Build-Jdk: 17.0.2
+Built-By: Ajithvenkadesh
+Bundle-Activator: com.task.Activator
+Bundle-ClassPath: .,validation-api-2.0.1.Final.jar
+Bundle-Description: hibernate OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: hibernate Bundle
+Bundle-SymbolicName: hibernate
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: validation-api
+Embedded-Artifacts: validation-api-2.0.1.Final.jar;g="javax.validation";
+ a="validation-api";v="2.0.1.Final"
+Import-Package: org.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-2.4.1.201501161923

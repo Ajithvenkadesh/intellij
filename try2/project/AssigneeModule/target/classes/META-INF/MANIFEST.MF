@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1659678171058
+Build-Jdk-Spec: 17
+Bundle-Blueprint: OSGI-INF/blueprint/my-service.xml
+Bundle-Description: project OSGi blueprint bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: AssigneeModule
+Bundle-SymbolicName: AssigneeModule
+Bundle-Version: 73.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.4
+Embed-Dependency: validation-api
+Import-Package: com.fasterxml.jackson.jaxrs.json;version="[2.13,3)",com.
+ taskManagement.validation;version="[0.0,1)",javax.ws.rs;version="[2.1,3
+ )",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.postgresql;ve
+ rsion="[42.3,43)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103

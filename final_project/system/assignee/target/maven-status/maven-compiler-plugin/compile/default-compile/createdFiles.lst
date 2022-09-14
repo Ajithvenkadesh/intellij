@@ -1,0 +1,9 @@
+com\system\assignee\controller\AssigneeController.class
+com\system\assignee\service\implementation\AssigneeImplementation.class
+com\system\assignee\dao\AssigneeDao.class
+com\system\assignee\view\AssigneeDetails.class
+com\system\assignee\view\MenuLauncher.class
+com\system\assignee\view\AssigneeMenu.class
+com\system\assignee\model\Assignee.class
+com\system\assignee\service\AssigneeService.class
+com\system\assignee\service\impl\AssigneeImplementation.class

@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1661490178006
+Build-Jdk-Spec: 17
+Bundle-Blueprint: OSGI-INF/blueprint/my-service.xml
+Bundle-ClassPath: .,assignee-1.0-SNAPSHOT.jar,task-1.0-SNAPSHOT.jar
+Bundle-Description: taskImplementation OSGi blueprint bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: taskImplementation Blueprint Bundle
+Bundle-SymbolicName: taskImplementation
+Bundle-Version: 24.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.4
+Embed-Dependency: assignee,task
+Embedded-Artifacts: assignee-1.0-SNAPSHOT.jar;g="com.system.assignee";a=
+ "assignee";v="1.0-SNAPSHOT",task-1.0-SNAPSHOT.jar;g="com.system.task";a
+ ="task";v="1.0-SNAPSHOT"
+Export-Package: com.taskManagementSystem.connection;version="24.0.0.SNAP
+ SHOT",com.taskManagementSystem.controller;version="24.0.0.SNAPSHOT";use
+ s:="com.taskManagementSystem.model,javax.ws.rs",com.taskManagementSyste
+ m.dao;version="24.0.0.SNAPSHOT";uses:="com.taskManagementSystem.model",
+ com.taskManagementSystem.model;version="24.0.0.SNAPSHOT",com.taskManage
+ mentSystem.service;version="24.0.0.SNAPSHOT";uses:="com.taskManagementS
+ ystem.model"
+Import-Package: com.connection;version="[1.0,2)",com.fasterxml.jackson.j
+ axrs.json;version="[2.13,3)",com.system.exception;version="[1.0,2)",com
+ .system.orm;version="[1.0,2)",com.taskManagementSystem.connection;versi
+ on="[24.0,25)",com.taskManagementSystem.dao;version="[24.0,25)",com.tas
+ kManagementSystem.model;version="[24.0,25)",com.taskManagementSystem.se
+ rvice;version="[24.0,25)",jakarta.validation;version="[3.0,4)",jakarta.
+ validation.bootstrap;version="[3.0,4)",jakarta.validation.constraints;v
+ ersion="[3.0,4)",javax.ws.rs;version="[2.1,3)",org.hibernate.validator;
+ version="[7.0,8)",org.json.simple;version="[1.1,2)",org.osgi.service.bl
+ ueprint;version="[1.0.0,2.0.0)",org.postgresql;version="[42.3,43)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103

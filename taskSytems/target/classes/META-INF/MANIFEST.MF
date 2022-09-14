@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1658810177734
+Build-Jdk-Spec: 17
+Bundle-Activator: bundle.Activator
+Bundle-Description: taskSytems OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: taskSytems Bundle
+Bundle-SymbolicName: taskSytems
+Bundle-Version: 35.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.4
+Export-Package: bundle;version="35.0.0.SNAPSHOT";uses:="org.osgi.framewo
+ rk"
+Import-Package: com.taskManagement.exception.descriptionException,com.ta
+ skManagement.validation,org.osgi.framework;version="[1.10,2)",org.postg
+ resql;version="[42.3,43)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103

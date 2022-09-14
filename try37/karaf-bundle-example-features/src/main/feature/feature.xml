@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<features name="karaf-bundle-example-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.3.0 http://karaf.apache.org/xmlns/features/v1.3.0">
+
+    <feature name="karaf-bundle-example-common" version="${project.version}">
+        <bundle>mvn:org.apache.karaf.examples/karaf-bundle-example-common/${project.version}</bundle>
+    </feature>
+
+    <feature name="karaf-bundle-example-provider" version="${project.version}">
+        <feature>karaf-bundle-example-common</feature>
+        <bundle>mvn:org.apache.karaf.examples/karaf-bundle-example-provider/${project.version}</bundle>
+    </feature>
+
+    <feature name="karaf-bundle-example-client" version="${project.version}">
+        <feature>karaf-bundle-example-common</feature>
+        <bundle>mvn:org.apache.karaf.examples/karaf-bundle-example-client/${project.version}</bundle>
+    </feature>
+
+</features>

@@ -1,0 +1,4 @@
+com\system\task\model\Task.class
+com\system\orm\OrmImplementation.class
+com\system\orm\Activator.class
+com\system\assignee\model\Assignee.class

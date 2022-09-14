@@ -1,0 +1,6 @@
+com\taskManagementSystem\controller\TaskController.class
+com\taskManagementSystem\service\TaskService.class
+com\taskManagementSystem\dao\TaskDao.class
+com\taskManagementSystem\service\implementation\TaskImplementation.class
+com\taskManagementSystem\model\Task.class
+com\taskManagementSystem\connection\DBConnect.class

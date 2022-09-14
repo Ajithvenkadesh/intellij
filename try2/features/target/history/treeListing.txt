@@ -1,0 +1,2 @@
+local:com.system:connection:jar:1.0-SNAPSHOT (compile)
+ local:org.postgresql:postgresql:jar:42.3.3 (compile)

@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1659678174732
+Build-Jdk-Spec: 17
+Bundle-Blueprint: OSGI-INF/blueprint/my-service.xml
+Bundle-ClassPath: .,validation-api-1.1.0.Final.jar
+Bundle-Description: TaskModule OSGi blueprint bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: TaskModule Blueprint Bundle
+Bundle-SymbolicName: TaskModule
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.4
+Embed-Dependency: validation-api
+Embedded-Artifacts: validation-api-1.1.0.Final.jar;g="javax.validation";
+ a="validation-api";v="1.1.0.Final"
+Export-Package: com.taskManagement.exception;version="1.0.0.SNAPSHOT";us
+ es:="org.osgi.framework",com.taskManagement.exception.descriptionExcept
+ ion;version="1.0.0.SNAPSHOT",com.taskManagement.validation;version="1.0
+ .0.SNAPSHOT";uses:="org.osgi.framework",com.taskManagementSystem.contro
+ ller;version="1.0.0.SNAPSHOT";uses:="com.taskManagementSystem.model,jav
+ ax.ws.rs",com.taskManagementSystem.dao;version="1.0.0.SNAPSHOT";uses:="
+ com.taskManagementSystem.model",com.taskManagementSystem.model;version=
+ "1.0.0.SNAPSHOT",com.taskManagementSystem.service;version="1.0.0.SNAPSH
+ OT";uses:="com.taskManagementSystem.model",com.taskManagementSystem.ser
+ vice.implementation;version="1.0.0.SNAPSHOT";uses:="com.taskManagementS
+ ystem.model,com.taskManagementSystem.service"
+Import-Package: com.fasterxml.jackson.jaxrs.json;version="[2.13,3)",com.
+ taskManagement.validation;version="[1.0,2)",com.taskManagementSystem.da
+ o;version="[1.0,2)",com.taskManagementSystem.model;version="[1.0,2)",co
+ m.taskManagementSystem.service;version="[1.0,2)",com.taskManagementSyst
+ em.service.implementation;version="[1.0,2)",javax.ws.rs;version="[2.1,3
+ )",org.osgi.framework,org.osgi.service.blueprint;version="[1.0.0,2.0.0)
+ ",org.postgresql
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103

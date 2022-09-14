@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1660200485499
+Build-Jdk: 17.0.2
+Built-By: Ajithvenkadesh
+Bundle-Activator: com.task.Activator
+Bundle-Description: hibernatevalidation OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: hibernatevalidation Bundle
+Bundle-SymbolicName: hibernatevalidation
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.task;version="1.0.0.SNAPSHOT";uses:="org.osgi.framew
+ ork"
+Import-Package: javax.validation,javax.validation.constraints,org.osgi.f
+ ramework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-2.4.1.201501161923

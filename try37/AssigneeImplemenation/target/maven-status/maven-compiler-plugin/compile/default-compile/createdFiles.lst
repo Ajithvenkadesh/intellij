@@ -1,0 +1,6 @@
+com\taskManagementSystem\dao\AssigneeDao.class
+com\taskManagementSystem\service\implementation\AssigneeImplementation.class
+com\taskManagementSystem\model\Assignee.class
+com\taskManagementSystem\service\AssigneeService.class
+com\taskManagementSystem\controller\AssigneeController.class
+com\taskManagementSystem\connection\DBConnect.class

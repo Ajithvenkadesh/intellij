@@ -1,0 +1,5 @@
+com\task\TestBean.class
+com\task\Language.class
+com\task\Activator.class
+com\task\LanguageValidator.class
+com\task\CustomConstraintExample.class

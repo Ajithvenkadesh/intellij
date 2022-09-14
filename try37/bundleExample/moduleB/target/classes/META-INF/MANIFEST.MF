@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1662537521617
+Build-Jdk-Spec: 18
+Bundle-Description: moduleB OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: moduleB Bundle
+Bundle-SymbolicName: moduleB
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.6
+Export-Package: com.moduleb;version="1.0.0.SNAPSHOT";uses:="org.osgi.fra
+ mework"
+Import-Package: java.io,java.lang,org.osgi.framework;version="[1.10,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.2.0.202202251641

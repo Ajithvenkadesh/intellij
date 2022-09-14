@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1657211750587
+Build-Jdk: 17.0.2
+Built-By: Ajithvenkadesh
+Bundle-Activator: bundle.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: tasks
+Bundle-SymbolicName: tasks
+Bundle-Version: 4.0.6.SNAPSHOT
+Class-Path: lib/postgresql-42.3.4.jar lib/checker-qual-3.5.0.jar lib/val
+ idation-1.0.1-SNAPSHOT.jar lib/commons-dbcp2-2.7.0.jar lib/commons-pool
+ 2-2.7.0.jar lib/commons-logging-1.2.jar lib/exception-1.0.1-SNAPSHOT.ja
+ r lib/org.osgi.compendium-5.0.0.jar
+Created-By: Apache Maven Bundle Plugin
+Export-Package: bundle;version="4.0.6.SNAPSHOT";uses:="org.osgi.framewor
+ k"
+Import-Package: com.taskManagement.exception,com.taskManagement.validati
+ on,org.apache.commons.dbcp2;version="[2.7,3)",org.osgi.framework;versio
+ n="[1.8,2)",java.util.Scanner;resolution:=optional
+Main-Class: com.taskManagement.view.MenuLauncher
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-2.4.1.201501161923
